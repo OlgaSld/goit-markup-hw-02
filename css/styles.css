@@ -3,6 +3,13 @@
     --secondary-font: 'Raleway', sans-serif; 
     --backround-light: #F4F4FD;
     --background-dark: #2E2F42;
+    --brand-color: #4d5ae5;
+    --accent-color: #404bbf;
+    --success: #31d0aa;
+    --color-text-main: #434455;
+    --color-text-second: #8e8f99;
+    --accent-lines: #e7e9fc;
+    --hero-background: #2e2f42;
 } 
 
 .list {
@@ -17,7 +24,7 @@ body {
     font-family: var(--primary-font);
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-text-main);
 }
 
 /* ============================== COMPONENTS ============================ */
@@ -55,7 +62,7 @@ body {
 /* ============================== HEADER  =============================== */
 .header-logo {
     line-height: 1.33;
-    color: #4D5AE5;
+    color: var(--brand-color;
 }
 
 .header-web,
@@ -71,26 +78,29 @@ body {
 }
 
 .nav .link:hover,
-.nav .link:focus,
+.nav .link:focus {
+   color: var(--accent-color);
+}
+
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .header-list .link.current {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
-.address {
-    font-style: normal;
-}
+.address {}
 
 .address-list {
     font-weight: 400;
     line-height: 1.5;
 }
 
-.address-item {}
+.address-item {
+    font-style: normal;
+}
 
 /* ============================== /HEADER ============================= */
 
@@ -116,13 +126,13 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: var(--brand-color);
     cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-color);
 }
 /* ============================== /HERO =============================== */
 
@@ -160,7 +170,7 @@ body {
 
 .footer-logo {
     line-height: 1.17;
-    color: #4D5AE5;
+    color: var(--brand-color);
 }
 
 .footer-web {
@@ -169,7 +179,7 @@ body {
 
 .footer-text {
     line-height: 1.5;
-    color: #E7E9FC;
+    color: var(--accent-lines);
 }
 /* ============================== /FOOTER =============================== */
 
@@ -182,15 +192,15 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
+    color: var(--brand-color);
+    background-color: var(--backround-light);
     cursor: pointer;
 }
 
 .portfolio-page-btn:hover,
 .portfolio-page-btn:focus {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--accent-color);
 }
 
 .portfolio-pg-namecard {
@@ -206,6 +216,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-text-main);
 }
 /* ============================== /PORTFOLIO PAGE ======================= */
