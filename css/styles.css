@@ -59,21 +59,21 @@ body {
 /* ============================== /COMPONENTS ============================ */
 
 /* ============================== HEADER  =============================== */
-.header-logo {
+.logo {
     line-height: 1.17;
     color: var(--brand-color);
 }
 
-.header-web,
-.header-link {
+.header-web {
     color: var(--background-dark);
 }
 
 .header {}
 
-.header-list {
+.header-link {
     font-weight: 500;
     line-height: 1.5;
+    color: var(--background-dark);
 }
 
 .nav .link:hover,
@@ -81,7 +81,7 @@ body {
    color: var(--accent-color);
 }
 
-.header-list .link.current {
+.link.current {
     color: var(--accent-color);
 }
 
