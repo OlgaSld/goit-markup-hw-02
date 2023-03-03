@@ -17,7 +17,7 @@ body {
     font-family: var(--primary-font);
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
 
 /* ============================== COMPONENTS ============================ */
@@ -27,7 +27,9 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .feutures-subtitle,
@@ -36,6 +38,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     font-style: normal;
+    color: #2E2F42;
 }
 
 .logo  {
@@ -51,10 +54,11 @@ body {
 /* ============================== HEADER  =============================== */
 .header-logo {
     line-height: 1.33;
+    color: #4D5AE5;
 }
 
 .header-web {
-    color: #4D5AE5;
+    color: var(--background-secondary)
 }
 
 .header {}
@@ -64,7 +68,9 @@ body {
     line-height: 1.5;
 }
 
-.header-item {}
+.header-item {
+    color: var(--background-secondary)
+}
 
 .nav .link:hover,
 .nav .link:focus {
@@ -78,12 +84,13 @@ body {
 .address {}
 
 .address-list {
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    color: #434455;
 }
 
-.address-link:hover {
+.address-link:hover 
+.address-link:focus {
     color: #404BBF;
 }
 
@@ -100,6 +107,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -113,6 +121,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -152,17 +161,16 @@ body {
 
 /* ============================== FOOTER =============================== */
 .footer {
-    background: #2E2F42;
+    background: var(--background-secondary)
 }
 
 .footer-logo {
-    line-height: 1.17;
-    color: #F4F4FD;
+    line-height: 1.33;
+    color: #4D5AE5;
 }
 
 .footer-web {
-    line-height: 1.17;
-    color: #4D5AE5;
+     color: #F4F4FD;
 }
 
 .footer-text {
@@ -173,7 +181,7 @@ body {
 
 /* ============================== PORTFOLIO PAGE ======================= */
 .portfolio-page-btn {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1.5;
     align-items: center;
@@ -181,6 +189,7 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
+    cursor: pointer;
 }
 
 .portfolio-page-btn:hover,
@@ -190,13 +199,18 @@ body {
 }
 
 .portfolio-pg-namecard {
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-secondary);
 }
 
 .portfolio-pg-text {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    letter-spacing: 0.02em;
+    color: #434455;;
 }
 /* ============================== /PORTFOLIO PAGE ======================= */
